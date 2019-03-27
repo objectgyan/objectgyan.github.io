@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Electronics",
+    "options": ["Mobile", "Microwave", "Bulbs"]
+  },
+  {
+    "name": "TV & Appliances",
+    "options": ["Samsung", "LG", "Sony"]
+  },
+  {
+    "name": "Home & Furniture",
+    "options": ["Sofa", "Beds", "Chairs"]
+  },
+  {
+    "name": "Men",
+    "options": ["Shirts", "T-Shirts", "Jeans"]
+  },
+  {
+    "name": "Women",
+    "options": ["Shirts", "T-Shirts", "Jeans"]
+  },
+  {
+    "name": "Kids",
+    "options": ["Shirts", "T-Shirts", "Jeans"]
+  }
+]
