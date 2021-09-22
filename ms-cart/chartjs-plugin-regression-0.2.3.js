@@ -70,7 +70,7 @@ var MetaDataSet = /** @class */ (function () {
         }); };
     };
     MetaDataSet.prototype.drawRegressions = function () {
-        console.log('Drawing Regressions');
+        //console.log('Drawing Regressions');
         var ctx = this.chart.chart.ctx;
         ctx.save();
         try {
@@ -81,7 +81,7 @@ var MetaDataSet = /** @class */ (function () {
         }
     };
     MetaDataSet.prototype.drawRightBorders = function () {
-        console.log('Drawing Right Borders');
+        //console.log('Drawing Right Borders');
         var ctx = this.chart.chart.ctx;
         ctx.save();
         try {
@@ -284,8 +284,8 @@ var MetaSection = /** @class */ (function () {
                 for (var x = startIndex + 1; x <= endIndex; x++) {
                     if (dataSet_data[0] != undefined) {
                         p = f(x, x * timeSpan / arraySpan + dataSet_data[0].t);
-                        //console.log('X-Value: ' + p.x);
-                        //console.log('Y-Value: ' + p.y);
+                        // console.log('X-Value: ' + p.x);
+                        // console.log('Y-Value: ' + p.y);
                         ctx.lineTo(p.x, p.y);
                     }
                 }
